@@ -1,7 +1,5 @@
 # MediaElementRepro 
 
-## `SIGSEV` thrown on `AVFoundation.AVPlayer.Pause` During `Xamarin.Forms.Platform.iOS.MediaElementRenderer.Dispose`
-
 When `Dispose` is called on `Xamarin.Forms.Platform.iOS.MediaElementRenderer`, a `SIGSEV`exception is thrown when [`_avPlayerViewController?.Player?.Pause();` is called](https://github.com/xamarin/Xamarin.Forms/blob/0fcb73afbf8fd5d1f9057d999de0af9494004837/Xamarin.Forms.Platform.iOS/Renderers/MediaElementRenderer.cs#L134).
 
 ### Reprodiction Steps
