@@ -56,9 +56,7 @@ When `Dispose` is called on `Xamarin.Forms.Platform.iOS.MediaElementRenderer`, a
 	  at <Module>:runtime_invoke_void_object <0x00198>
    ```
    
-   ## 2. 
-   
-   ## Environment
+## Environment
    === Visual Studio Enterprise 2019 for Mac ===
 
 Version 8.5.4 (build 12)
