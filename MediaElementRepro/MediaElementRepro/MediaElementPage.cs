@@ -30,7 +30,7 @@ namespace MediaElementRepro
                         BackgroundColor = Color.LightGreen,
                         HorizontalOptions = LayoutOptions.FillAndExpand,
                         VerticalOptions = LayoutOptions.Start,
-                        Command = new Command(async () => await Navigation.PushModalAsync(new ModalFormSheetNavigationPage(new MediaElementPage("App Crashes When Popped on iOS"))))
+                        Command = new Command(async () => await Navigation.PushModalAsync(new NavigationPage(new MediaElementPage("App Crashes When Popped on iOS")){ BackgroundColor = Color.LightSlateGray }))
                     },
                     new MediaElement
                     {
